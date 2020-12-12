@@ -1,0 +1,86 @@
+starting a container
+# docker container run --publish 80:80 nginx
+-p/--publish HOST:CONTAINER
+
+run container in background
+# docker container run --publish 80:80 --detach/-d nginx
+
+run container in background with specific version
+# docker container run --publish 80:80 --detach nginx:<VERSION>
+
+list containers
+# docker container ls
+
+list all containers
+#docker container ls -a
+
+container with name
+# docker container run --publish 80:80 --detach --name/-n <NAME> nginx
+
+logs of container
+# docker container logs <NAME>
+
+remove all containers 
+# docker container rm <CONTAINER ID>
+
+remove a running container
+# docker container rm -f <CONTAINER ID>
+
+to check docker processes
+# docker ps
+
+list process running in a specific container
+# docker top mongo
+
+if in docker-windows run the below command to get into container
+# docker run -it --rm --privileged --pid=host justincormack/nsenter1
+
+stop a container 
+# docker stop <NAME of continer>
+
+start a container
+# docker start <NAME of container>
+
+What's going on in containers
+# docker container top
+# docker container inspect
+# docker container stats
+
+install a container with shell
+# docker container run -it --name <CONTAINER_NAME> <IMAGE>
+
+start a container with shell
+# docker container start -ai <CONTAINER_NAME>
+
+connect to an existing container with shell
+# docker container exec -it <CONTAINER_NAME>
+
+Pull and keep images locally ready
+# docker pull <IMAGE_NAME>
+
+Check available images
+# docker image ls
+
+To check port and forwarding information
+# docker container port <CONTAINER_NAME>
+
+IP ADDR of the container
+# docker container inspect --format '{{ .NetworkSettings.IPAddress }}' <CONTAINER_NAME>
+
+Create Network
+# docker create network --driver
+
+create virtual network
+# docker create network <bridge_name>
+
+Create a temporary container 
+# docker container run --rm -it <IMAGE> bash
+
+Create a container with custome volume.
+docker container run --name <CONTAINER_NAME> -d -v <CUST_NAME>:<CUSTOM_FOLDER_PATH> IMAGE
+to assign or remove containers from network
+# docker container connect/disconnect <CONTAINER_ID> <BRIDGE_ID>
+
+run command on a container directly
+# docker container exec -it <CONTAINER_NAME> command
+
