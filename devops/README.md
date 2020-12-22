@@ -3,3 +3,5 @@
 The documentation available under this file, will inform the user on what are the contents of this foler and its purposes.
 
 This file is to demo new Git Batch students.
+
+To test diff feature of GIT
