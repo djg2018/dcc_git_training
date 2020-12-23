@@ -1,2 +1,6 @@
 Hi, this is to test branching and merging.
+
 This is hotfix
+
+Added new lines of code
+added code related to issue
