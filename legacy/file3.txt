@@ -1,1 +1,3 @@
 file3
+Head of pointer
+This is final test before push
