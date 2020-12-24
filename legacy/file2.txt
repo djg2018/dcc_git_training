@@ -1,2 +1,5 @@
 file2
 testing branch
+
+
+stashing example
