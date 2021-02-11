@@ -1,3 +1,1 @@
-Hi, this is the 1st line
-Hi, this is the 2nd commit
-Hi, this is the 3rd commit
+Total New line
