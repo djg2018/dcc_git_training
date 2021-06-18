@@ -3,3 +3,5 @@ Hello All,
 This is my new projects new file to test Git Remote
 
 NewBatch_GitClass_1
+
+NewBatch_GitClass_1.1
