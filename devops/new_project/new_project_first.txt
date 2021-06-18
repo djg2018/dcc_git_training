@@ -7,3 +7,5 @@ NewBatch_GitClass_1
 NewBatch_GitClass_1.1
 
 NewBatch_GitClass_1.2
+
+NewBatch_GitClass_1.3
